@@ -16,7 +16,7 @@
 
 ## About Me
 
-I'm a graduate CS student at UCI with **2.5+ years of professional experience** building production-grade backend systems and distributed infrastructure at Hewlett Packard Enterprise. I've shipped features used by Fortune 500 clients, led root cause analysis across production escalations, and built everything from Kubernetes storage controllers to AI-powered automation pipelines.
+I'm a graduate CS student at UCI with **2+ years of professional experience** building production-grade backend systems and distributed infrastructure at Hewlett Packard Enterprise. I've shipped features used by Fortune 500 clients, led root cause analysis across production escalations, and built everything from Kubernetes storage controllers to AI-powered automation pipelines.
 
 I care about systems that are correct, fast, and reliable — and I enjoy working on problems where those properties actually matter.
 
@@ -89,6 +89,8 @@ I care about systems that are correct, fast, and reliable — and I enjoy workin
 **Disaster Recovery Automation**
 - Developed a Python and Go-based SRM integration plugin to automate failover, failback, and migration workflows across distributed systems, eliminating manual sequencing and improving recovery consistency
 - Implemented multithreaded execution for DR validation and state reconciliation workflows within the SRM plugin, reducing sequential bottlenecks and improving failover readiness by 60% as measured by call logs
+- Built and documented unit test code for Prepare Reverse Replication (PRR) workflows with comprehensive error handling, covering edge cases including invalid RCG states, expired session keys, and inconsistent array states
+- Contributed to code analysis and debugging of SRA integration functions for VMware Site Recovery Manager (SRM), working across the full failover-to-reverse-replication lifecycle
 
 ---
 
@@ -96,12 +98,10 @@ I care about systems that are correct, fast, and reliable — and I enjoy workin
 `June 2022 – August 2022` &nbsp;|&nbsp; Mumbai, India
 
 **Mobile App Development & Quality Assurance**
-- Executed end-to-end Quality Assurance and User Acceptance Testing across multiple app builds for the Starbucks India mobile app rollout, identifying and logging 150+ bugs and release blockers using structured test cases across real devices, OS versions, and network configurations
-- Conducted API testing using Postman, validating REST endpoints (GET, POST, PUT, DELETE) for the Starbucks NewApp backend and documenting request/response behavior for the store, menu, cart, and order management services
-- Worked with OrderServ — Cognizant's omnichannel kitchen order management system — to categorize and configure over 500 menu items across categories, subcategories, and modifier groups, directly supporting the app's menu data layer
-- Built and managed product filter and search tags for item subcategories, improving discoverability across the app's menu hierarchy
-- Classified and uploaded SVG format product images across multiple resolutions (420x420 and 1320x420) to the OrderServ dashboard for different app view configurations
-- Gained hands-on exposure to the full Application Development Life Cycle (ADLC) — from concept validation and UX design through backend development, QA, UAT, launch, and post-launch operations
+- Executed Quality Assurance and User Acceptance Testing across multiple builds of the Starbucks India mobile app, logging 150+ bugs with structured reproduction steps across devices, OS versions, and network configurations
+- Conducted API testing using Postman, validating REST endpoints (GET, POST, PUT, DELETE) for the Starbucks NewApp backend covering store, menu, cart, and order management services
+- Worked with OrderServ (Cognizant's kitchen order management system) to categorize and configure 500+ menu items across categories, subcategories, and modifier groups
+- Built product filter and search tags for item subcategories, and uploaded classified SVG product images across multiple resolutions to the OrderServ dashboard
 
 ---
 
@@ -110,49 +110,49 @@ I care about systems that are correct, fast, and reliable — and I enjoy workin
 ### [Recovery Adapter](https://github.com/shrey-deshmukh/recovery-adapter)
 `Go · REST APIs · CLI`
 
-Go-based CLI tool integrating with storage REST APIs to identify and remediate inconsistent storage states post-failover, eliminating manual multi-step replication operations. **Ranked Top 5** at HPE Storage Creative Days Hackathon 2023.
+A Golang-based CLI tool built at HPE to automate disaster recovery operations on storage arrays. The tool abstracts complex HPE array CLI commands into a simple menu-driven interface supporting the full failover lifecycle: connect to primary and secondary sites via REST, check array and Remote Copy Group (RCG) status, execute planned failover and failback, reprotect arrays, and fetch task logs for debugging. Implements pre-failover safety checks, robust error handling for 14+ edge cases (invalid RCG states, expired sessions, incorrect credentials), and was designed to reduce Recovery Time Objective (RTO) for support teams, sales engineers, and R&D. **Ranked Top 5** at HPE Storage Creative Days Hackathon 2023.
 
 ---
 
 ### [SurveyOps+](https://github.com/shrey-deshmukh/surveyops-plus)
-`Python · LLMs · Multimodal AI`
+`Python · LLMs · Multimodal AI · Prompt Engineering`
 
-AI-powered document processing and automation pipeline using multimodal LLMs, prompt engineering, and structured outputs to automate complex inspection reporting workflows end-to-end.
+An AI-powered inspection workflow automation system that replaces manual marine container reporting with an end-to-end intelligent pipeline. Uses multimodal LLMs to process raw visual and textual inspection inputs, applies structured output schemas and prompt engineering to generate standardized reports, and incorporates human-in-the-loop validation gates to ensure accuracy before finalization. Designed with async processing for throughput and modular pipeline stages for extensibility — directly applicable to any domain requiring automated document generation from unstructured inputs.
 
 ---
 
 ### [Transaction Processing Engine](https://github.com/shrey-deshmukh/transaction-processing-engine)
 `C++ · RocksDB · Multithreading · Concurrency Control`
 
-Multithreaded transaction processing engine implementing **OCC** and **Conservative 2PL** on RocksDB. Features hotset-based contention modeling and full p50/p95/p99 latency benchmarking across thread counts and contention levels. Engineered livelock prevention via timestamp-based priority escalation and deadlock avoidance via consistent lock ordering.
+A multithreaded transaction processing engine built from scratch in C++ on top of RocksDB. Implements two full concurrency control protocols: **Optimistic Concurrency Control (OCC)** with a read-validate-write phase model and exponential backoff on abort, and **Conservative Two-Phase Locking (2PL)** with all-or-nothing lock acquisition, deadlock avoidance via consistent key ordering, and livelock prevention through timestamp-based priority escalation. Features a configurable hotset-based contention model and full benchmarking pipeline measuring throughput (txns/sec) and p50/p95/p99 latency across thread counts and contention levels. Benchmark results included in the repository.
 
 ---
 
 ### [Autonomous Intersection Navigation](https://github.com/shrey-deshmukh/autonomous-intersection-navigation)
-`Python · PyTorch · Deep Q-Network`
+`Python · PyTorch · Deep Q-Network · Curriculum Learning`
 
-Trained a Deep Q-Network agent using curriculum learning across **35,000 episodes**, achieving **85% success rate** in high-congestion (16-car) scenarios. Engineered a hybrid safety architecture combining DQN-based planning with a rule-based collision shield.
+A reinforcement learning agent trained to navigate unsignalized four-way intersections without traffic signals. Uses Deep Q-Network (DQN) with curriculum learning — progressively increasing traffic density from low to high congestion across 35,000 training episodes — achieving **85% success rate** in high-congestion 16-car scenarios. Engineered a hybrid safety architecture combining DQN-based long-term planning with a rule-based collision shield that overrides unsafe actions, and applied transfer learning to improve generalization across unseen traffic densities.
 
 ---
 
 ### [Face Mask Detection](https://github.com/shrey-deshmukh/face-mask-detection)
-`Python · TensorFlow · Keras · OpenCV`
+`Python · TensorFlow · Keras · OpenCV · MobileNetV2`
 
-MobileNetV2-based transfer learning model trained on 2,200+ images achieving **95.77% classification accuracy**, with a real-time video inference pipeline using OpenCV for live detection.
+An end-to-end computer vision pipeline for real-time face mask detection. Fine-tuned a MobileNetV2 transfer learning model with data augmentation on 2,200+ labeled images, achieving **95.77% classification accuracy** across two datasets. Built a complete inference pipeline from data preprocessing and CNN training through to real-time video detection using OpenCV — capable of processing live camera feeds and classifying mask/no-mask per detected face at video frame rate.
 
 ---
 
 ### [Live Web Code Sandbox](https://github.com/shrey-deshmukh/live-web-code-sandbox)
 `HTML · CSS · JavaScript · jQuery`
 
-Browser-based code editor with live preview, dynamically injecting and executing HTML, CSS, and JavaScript in real time without page reloads. Implemented resizable, toggleable editor panels using jQuery UI with isolated output rendering to prevent style and script conflicts.
+A browser-based live coding environment that dynamically injects and executes HTML, CSS, and JavaScript in real time without page reloads. Features resizable and toggleable editor panels built with jQuery UI, isolated output rendering to prevent style and script conflicts between the editor and preview environments, and immediate visual feedback on every keystroke — similar in concept to tools like CodePen.
 
 ---
 
 ### [Android Fitness Metrics Calculator](https://github.com/shrey-deshmukh/android-fitness-metrics)
 `Java · Android SDK`
 
-Native Android app computing real-time fitness pacing metrics from user inputs, with event-driven callbacks, input validation, and constraint-based responsive layouts. Architected using a modular Activity-based pattern with separated presentation, computation, and resource layers.
+A native Android application for computing real-time fitness pacing metrics from user inputs including distance, time, and target goals. Implements event-driven input callbacks with full validation, constraint-based responsive layouts that adapt across screen sizes, and a modular Activity-based architecture with cleanly separated presentation, computation, and resource layers.
 
 ---
 
