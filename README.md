@@ -107,14 +107,14 @@ Multithreaded transaction processing engine implementing **OCC** and **Conservat
 
 ---
 
-### Recovery Adapter
+### [Recovery Adapter](https://github.com/Shrey-Deshmukh/Recovery-Adapter)
 `Go · REST APIs · CLI`
 
 Go-based CLI tool integrating with storage REST APIs to identify and remediate inconsistent storage states post-failover, eliminating manual multi-step replication operations. **Ranked Top 5** at HPE Storage Creative Days Hackathon 2023.
 
 ---
 
-### SurveyOps+
+### [SurveyOps+](https://github.com/Shrey-Deshmukh/survey_ops_plus_poc)
 `Python · LLMs · Multimodal AI`
 
 AI-powered document processing and automation pipeline using multimodal LLMs, prompt engineering, and structured outputs to automate complex inspection reporting workflows end-to-end.
@@ -143,8 +143,8 @@ MobileNetV2-based transfer learning model trained on 2,200+ images achieving **9
 | | |
 |---|---|
 | Artificial Intelligence | Machine Learning |
-| Distributed Systems | Algorithms |
-| Advanced Programming | Transaction Processing |
+| Advanced Programming | Algorithms |
+| Distributed Systems | Transaction Processing |
 
 ---
 
@@ -154,7 +154,7 @@ MobileNetV2-based transfer learning model trained on 2,200+ images achieving **9
 | | |
 |---|---|
 | Data Structures & Algorithms | Object-Oriented Programming |
-| Database Systems | Operating Systems |
+| Database Management Systems | Operating Systems |
 | Cloud Computing | Big Data Management |
 | Software Design | Computer Networks |
 
