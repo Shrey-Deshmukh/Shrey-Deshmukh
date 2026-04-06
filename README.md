@@ -185,7 +185,7 @@ A native Android application for computing real-time fitness pacing metrics from
 
 <div align="center">
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shrey-deshmukh&show_icons=true&theme=dark&hide_border=true&count_private=true&cache_seconds=1800)](https://github.com/shrey-deshmukh)
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shrey-deshmukh&layout=compact&theme=dark&hide_border=true&cache_seconds=1800)](https://github.com/shrey-deshmukh)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shrey-deshmukh&show_icons=true&theme=dark&hide_border=true&count_private=true&v=1)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shrey-deshmukh&layout=compact&theme=dark&hide_border=true&v=1)
 
 </div>
