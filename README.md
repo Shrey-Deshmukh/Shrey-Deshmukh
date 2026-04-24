@@ -65,46 +65,6 @@ I care about systems that are correct, fast, and reliable — and I enjoy workin
 
 ---
 
-## Experience
-
-### Hewlett Packard Enterprise - Software / Cloud Development Engineer
-`August 2023 – August 2025` &nbsp;|&nbsp; Bengaluru, India
-
-**Kubernetes (K8s) CSI Storage Integration**
-- Engineered scalable, high availability backend microservices in Go within HPE's Container Storage Provider to orchestrate dynamic resource provisioning and multi-cluster replication across distributed Kubernetes deployments
-- Designed and implemented Active Peer Persistence using Kubernetes CRDs to track array changes, reducing downtime risk
-- Engineered and released an end-to-end Disable Host Deletion safeguard preventing destructive operations on arrays during active replication, reducing accidental deletion-related escalations to near zero post-release
-- Troubleshot and led root cause analysis for 12 production escalations across Fortune 500 enterprise CSI deployments; increased unit test coverage from 0% to ~80% in high-risk modules, significantly improving CSI 3.0 release stability
-
-**VMware vSphere Backend Plugin Development**
-- Developed core backend components for Storage Integration Pack (SIPVC) 13.x, integrating HPE storage systems with VMware REST APIs, enabling lifecycle management, snapshots, and persistence workflows within vCenter
-- Implemented Quick Restore Snapshot for VMFS datastores using array-level fast-copy primitives - benchmarked recovery time reduction from hours to near instant - directly contributing to a $1.1M Disaster Event Recovery engagement
-- Collapsed a 5-step manual provisioning workflow into a single automated operation via dynamic datastore expansion, reducing administrative steps by 80%
-
----
-
-### Hewlett Packard Enterprise - Software / Cloud Development Engineering Intern
-`January 2023 – July 2023` &nbsp;|&nbsp; Bengaluru, India
-
-**Disaster Recovery Automation**
-- Developed a Python and Go-based SRM integration plugin to automate failover, failback, and migration workflows across distributed systems, eliminating manual sequencing and improving recovery consistency
-- Implemented multithreaded execution for DR validation and state reconciliation workflows within the SRM plugin, reducing sequential bottlenecks and improving failover readiness by 60% as measured by call logs
-- Built and documented unit test code for Prepare Reverse Replication (PRR) workflows with comprehensive error handling, covering edge cases including invalid RCG states, expired session keys, and inconsistent array states
-- Contributed to code analysis and debugging of SRA integration functions for VMware Site Recovery Manager (SRM), working across the full failover-to-reverse-replication lifecycle
-
----
-
-### Tata Starbucks - Information Technology Intern
-`June 2022 – August 2022` &nbsp;|&nbsp; Mumbai, India
-
-**Mobile App Development & Quality Assurance**
-- Executed Quality Assurance and User Acceptance Testing across multiple builds of the Starbucks India mobile app, logging 150+ bugs with structured reproduction steps across devices, OS versions, and network configurations
-- Conducted API testing using Postman, validating REST endpoints (GET, POST, PUT, DELETE) for the Starbucks NewApp backend covering store, menu, cart, and order management services
-- Worked with OrderServ (Cognizant's kitchen order management system) to categorize and configure 500+ menu items across categories, subcategories, and modifier groups
-- Built product filter and search tags for item subcategories, and uploaded classified SVG product images across multiple resolutions to the OrderServ dashboard
-
----
-
 ## Projects
 
 ### [Recovery Adapter](https://github.com/shrey-deshmukh/recovery-adapter)
@@ -153,6 +113,47 @@ A browser-based live coding environment that dynamically injects and executes HT
 `Java · Android SDK`
 
 A native Android application for computing real-time fitness pacing metrics from user inputs including distance, time, and target goals. Implements event-driven input callbacks with full validation, constraint-based responsive layouts that adapt across screen sizes, and a modular Activity-based architecture with cleanly separated presentation, computation, and resource layers.
+
+
+---
+
+## Experience
+
+### Hewlett Packard Enterprise - Software / Cloud Development Engineer
+`August 2023 – August 2025` &nbsp;|&nbsp; Bengaluru, India
+
+**Kubernetes (K8s) CSI Storage Integration**
+- Engineered scalable, high availability backend microservices in Go within HPE's Container Storage Provider to orchestrate dynamic resource provisioning and multi-cluster replication across distributed Kubernetes deployments
+- Designed and implemented Active Peer Persistence using Kubernetes CRDs to track array changes, reducing downtime risk
+- Engineered and released an end-to-end Disable Host Deletion safeguard preventing destructive operations on arrays during active replication, reducing accidental deletion-related escalations to near zero post-release
+- Troubleshot and led root cause analysis for 12 production escalations across Fortune 500 enterprise CSI deployments; increased unit test coverage from 0% to ~80% in high-risk modules, significantly improving CSI 3.0 release stability
+
+**VMware vSphere Backend Plugin Development**
+- Developed core backend components for Storage Integration Pack (SIPVC) 13.x, integrating HPE storage systems with VMware REST APIs, enabling lifecycle management, snapshots, and persistence workflows within vCenter
+- Implemented Quick Restore Snapshot for VMFS datastores using array-level fast-copy primitives - benchmarked recovery time reduction from hours to near instant - directly contributing to a $1.1M Disaster Event Recovery engagement
+- Collapsed a 5-step manual provisioning workflow into a single automated operation via dynamic datastore expansion, reducing administrative steps by 80%
+
+---
+
+### Hewlett Packard Enterprise - Software / Cloud Development Engineering Intern
+`January 2023 – July 2023` &nbsp;|&nbsp; Bengaluru, India
+
+**Disaster Recovery Automation**
+- Developed a Python and Go-based SRM integration plugin to automate failover, failback, and migration workflows across distributed systems, eliminating manual sequencing and improving recovery consistency
+- Implemented multithreaded execution for DR validation and state reconciliation workflows within the SRM plugin, reducing sequential bottlenecks and improving failover readiness by 60% as measured by call logs
+- Built and documented unit test code for Prepare Reverse Replication (PRR) workflows with comprehensive error handling, covering edge cases including invalid RCG states, expired session keys, and inconsistent array states
+- Contributed to code analysis and debugging of SRA integration functions for VMware Site Recovery Manager (SRM), working across the full failover-to-reverse-replication lifecycle
+
+---
+
+### Tata Starbucks - Information Technology Intern
+`June 2022 – August 2022` &nbsp;|&nbsp; Mumbai, India
+
+**Mobile App Development & Quality Assurance**
+- Executed Quality Assurance and User Acceptance Testing across multiple builds of the Starbucks India mobile app, logging 150+ bugs with structured reproduction steps across devices, OS versions, and network configurations
+- Conducted API testing using Postman, validating REST endpoints (GET, POST, PUT, DELETE) for the Starbucks NewApp backend covering store, menu, cart, and order management services
+- Worked with OrderServ (Cognizant's kitchen order management system) to categorize and configure 500+ menu items across categories, subcategories, and modifier groups
+- Built product filter and search tags for item subcategories, and uploaded classified SVG product images across multiple resolutions to the OrderServ dashboard
 
 ---
 
