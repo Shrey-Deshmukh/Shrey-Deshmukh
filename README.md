@@ -4,7 +4,7 @@
 
 **Graduate Computer Science Student @ UC Irvine** &nbsp;|&nbsp; **Ex-Hewlett Packard Enterprise** &nbsp;|&nbsp; **Irvine, CA**
 
-*Currently seeking Summer 2026 internships in Software Engineering, ML Engineering, and related fields*
+*Currently seeking Summer 2026 internships in Software Engineering, AI Engineering, Cloud Engineering and related fields*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shrey-deshmukh)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=netlify&logoColor=white)](https://shrey-deshmukh.netlify.app)
@@ -18,7 +18,7 @@
 
 I'm a graduate CS student at UCI with **2+ years of professional experience** building production-grade backend systems and distributed infrastructure at Hewlett Packard Enterprise. I've shipped features used by Fortune 500 clients, led root cause analysis across production escalations, and built everything from Kubernetes storage controllers to AI-powered automation pipelines.
 
-I care about systems that are correct, fast, and reliable — and I enjoy working on problems where those properties actually matter.
+I care about systems that are correct, fast, and reliable - and I enjoy working on problems where those properties actually matter.
 
 ---
 
