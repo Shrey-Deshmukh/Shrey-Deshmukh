@@ -67,15 +67,17 @@ I care about systems that are correct, fast, and reliable — and I enjoy workin
 
 ## Projects
 
+Here are a few selected projects.
+
 ### [Recovery Adapter](https://github.com/shrey-deshmukh/recovery-adapter)
-`Go · REST APIs · CLI`
+`Go · REST APIs · CLI · Linux`
 
 A Golang-based CLI tool built at HPE to automate disaster recovery operations on storage arrays. The tool abstracts complex HPE array CLI commands into a simple menu-driven interface supporting the full failover lifecycle: connect to primary and secondary sites via REST, check array and Remote Copy Group (RCG) status, execute planned failover and failback, reprotect arrays, and fetch task logs for debugging. Implements pre-failover safety checks, robust error handling for 14+ edge cases (invalid RCG states, expired sessions, incorrect credentials), and was designed to reduce Recovery Time Objective (RTO) for support teams, sales engineers, and R&D. **Ranked Top 5** at HPE Storage Creative Days Hackathon 2023.
 
 ---
 
 ### [SurveyOps+](https://github.com/Shrey-Deshmukh/survey_ops_plus_poc)
-`Python · LLMs · Multimodal AI · Prompt Engineering`
+`Python · LLMs · Multimodal AI · API Integration · LangChain · LangGraph · Prompt Engineering`
 
 An AI-powered inspection workflow automation system that replaces manual marine container reporting with an end-to-end intelligent pipeline. Uses multimodal LLMs to process raw visual and textual inspection inputs, applies structured output schemas and prompt engineering to generate standardized reports, and incorporates human-in-the-loop validation gates to ensure accuracy before finalization. Designed with async processing for throughput and modular pipeline stages for extensibility - directly applicable to any domain requiring automated document generation from unstructured inputs.
 
@@ -123,6 +125,7 @@ A native Android application for computing real-time fitness pacing metrics from
 `August 2023 – August 2025` &nbsp;|&nbsp; Bengaluru, India
 
 **Kubernetes (K8s) CSI Storage Integration**
+- Drove cross-team collaboration in HPE’s Innovation Connect program, supporting 4 engineering teams in delivering winning TechCons submissions, hackathon prototypes, and patent initiatives.
 - Engineered scalable, high availability backend microservices in Go within HPE's Container Storage Provider to orchestrate dynamic resource provisioning and multi-cluster replication across distributed Kubernetes deployments
 - Designed and implemented Active Peer Persistence using Kubernetes CRDs to track array changes, reducing downtime risk
 - Engineered and released an end-to-end Disable Host Deletion safeguard preventing destructive operations on arrays during active replication, reducing accidental deletion-related escalations to near zero post-release
@@ -165,6 +168,7 @@ A native Android application for computing real-time fitness pacing metrics from
 | | |
 |---|---|
 | Artificial Intelligence | Machine Learning |
+| Advanced Data Structure | Parallel Computing |
 | Distributed Systems | Algorithms |
 | Advanced Programming | Transaction Processing |
 
@@ -179,6 +183,7 @@ A native Android application for computing real-time fitness pacing metrics from
 | Database Systems | Operating Systems |
 | Cloud Computing | Big Data Management |
 | Software Design | Computer Networks |
+| Mobile Application Development | Data Mining and Predictive Analysis |
 
 ---
 
