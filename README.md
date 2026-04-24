@@ -121,10 +121,10 @@ An AI-powered inspection workflow automation system that replaces manual marine 
 
 ---
 
-### [Transaction Processing Engine](https://github.com/shrey-deshmukh/transaction-processing-engine)
-`C++ · RocksDB · Multithreading · Concurrency Control`
+### [Real Time Face Mask Detection](https://github.com/Shrey-Deshmukh/real-time-face-mask-detection.git)
+`Python · TensorFlow · Keras · OpenCV · MobileNetV2`
 
-A multithreaded transaction processing engine built from scratch in C++ on top of RocksDB. Implements two full concurrency control protocols: **Optimistic Concurrency Control (OCC)** with a read-validate-write phase model and exponential backoff on abort, and **Conservative Two-Phase Locking (2PL)** with all-or-nothing lock acquisition, deadlock avoidance via consistent key ordering, and livelock prevention through timestamp-based priority escalation. Features a configurable hotset-based contention model and full benchmarking pipeline measuring throughput (txns/sec) and p50/p95/p99 latency across thread counts and contention levels. Benchmark results included in the repository.
+An end-to-end computer vision pipeline for real-time face mask detection. Fine-tuned a MobileNetV2 transfer learning model with data augmentation on 2,200+ labeled images, achieving **95.77% classification accuracy** across two datasets. Built a complete inference pipeline from data preprocessing and CNN training through to real-time video detection using OpenCV - capable of processing live camera feeds and classifying mask/no-mask per detected face at video frame rate.
 
 ---
 
@@ -135,10 +135,10 @@ A reinforcement learning agent trained to navigate unsignalized four-way interse
 
 ---
 
-### [Face Mask Detection](https://github.com/shrey-deshmukh/face-mask-detection)
-`Python · TensorFlow · Keras · OpenCV · MobileNetV2`
+### [Transaction Processing Engine](https://github.com/shrey-deshmukh/transaction-processing-engine)
+`C++ · RocksDB · Multithreading · Concurrency Control`
 
-An end-to-end computer vision pipeline for real-time face mask detection. Fine-tuned a MobileNetV2 transfer learning model with data augmentation on 2,200+ labeled images, achieving **95.77% classification accuracy** across two datasets. Built a complete inference pipeline from data preprocessing and CNN training through to real-time video detection using OpenCV - capable of processing live camera feeds and classifying mask/no-mask per detected face at video frame rate.
+A multithreaded transaction processing engine built from scratch in C++ on top of RocksDB. Implements two full concurrency control protocols: **Optimistic Concurrency Control (OCC)** with a read-validate-write phase model and exponential backoff on abort, and **Conservative Two-Phase Locking (2PL)** with all-or-nothing lock acquisition, deadlock avoidance via consistent key ordering, and livelock prevention through timestamp-based priority escalation. Features a configurable hotset-based contention model and full benchmarking pipeline measuring throughput (txns/sec) and p50/p95/p99 latency across thread counts and contention levels. Benchmark results included in the repository.
 
 ---
 
