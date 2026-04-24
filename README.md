@@ -131,7 +131,7 @@ A multithreaded transaction processing engine built from scratch in C++ on top o
 ### [Autonomous Intersection Navigation](https://github.com/shrey-deshmukh/autonomous-intersection-navigation)
 `Python · PyTorch · Deep Q-Network · Curriculum Learning`
 
-A reinforcement learning agent trained to navigate unsignalized four-way intersections without traffic signals. Uses Deep Q-Network (DQN) with curriculum learning — progressively increasing traffic density from low to high congestion across 35,000 training episodes — achieving **85% success rate** in high-congestion 16-car scenarios. Engineered a hybrid safety architecture combining DQN-based long-term planning with a rule-based collision shield that overrides unsafe actions, and applied transfer learning to improve generalization across unseen traffic densities.
+A reinforcement learning agent trained to navigate unsignalized four-way intersections without traffic signals. Uses Deep Q-Network (DQN) with curriculum learning - progressively increasing traffic density from low to high congestion across 35,000 training episodes - achieving **85% success rate** in high-congestion 16-car scenarios. Engineered a hybrid safety architecture combining DQN-based long-term planning with a rule-based collision shield that overrides unsafe actions, and applied transfer learning to improve generalization across unseen traffic densities.
 
 ---
 
