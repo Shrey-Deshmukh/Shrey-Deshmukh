@@ -67,7 +67,7 @@ I care about systems that are correct, fast, and reliable — and I enjoy workin
 
 ## Experience
 
-### Hewlett Packard Enterprise — Software / Cloud Development Engineer
+### Hewlett Packard Enterprise - Software / Cloud Development Engineer
 `August 2023 – August 2025` &nbsp;|&nbsp; Bengaluru, India
 
 **Kubernetes (K8s) CSI Storage Integration**
@@ -78,12 +78,12 @@ I care about systems that are correct, fast, and reliable — and I enjoy workin
 
 **VMware vSphere Backend Plugin Development**
 - Developed core backend components for Storage Integration Pack (SIPVC) 13.x, integrating HPE storage systems with VMware REST APIs, enabling lifecycle management, snapshots, and persistence workflows within vCenter
-- Implemented Quick Restore Snapshot for VMFS datastores using array-level fast-copy primitives — benchmarked recovery time reduction from hours to near instant — directly contributing to a $1.1M Disaster Event Recovery engagement
+- Implemented Quick Restore Snapshot for VMFS datastores using array-level fast-copy primitives - benchmarked recovery time reduction from hours to near instant - directly contributing to a $1.1M Disaster Event Recovery engagement
 - Collapsed a 5-step manual provisioning workflow into a single automated operation via dynamic datastore expansion, reducing administrative steps by 80%
 
 ---
 
-### Hewlett Packard Enterprise — Software / Cloud Development Engineering Intern
+### Hewlett Packard Enterprise - Software / Cloud Development Engineering Intern
 `January 2023 – July 2023` &nbsp;|&nbsp; Bengaluru, India
 
 **Disaster Recovery Automation**
@@ -94,7 +94,7 @@ I care about systems that are correct, fast, and reliable — and I enjoy workin
 
 ---
 
-### Tata Starbucks — Information Technology Intern
+### Tata Starbucks - Information Technology Intern
 `June 2022 – August 2022` &nbsp;|&nbsp; Mumbai, India
 
 **Mobile App Development & Quality Assurance**
