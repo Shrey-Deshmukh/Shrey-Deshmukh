@@ -117,7 +117,7 @@ A Golang-based CLI tool built at HPE to automate disaster recovery operations on
 ### [SurveyOps+](https://github.com/Shrey-Deshmukh/survey_ops_plus_poc)
 `Python · LLMs · Multimodal AI · Prompt Engineering`
 
-An AI-powered inspection workflow automation system that replaces manual marine container reporting with an end-to-end intelligent pipeline. Uses multimodal LLMs to process raw visual and textual inspection inputs, applies structured output schemas and prompt engineering to generate standardized reports, and incorporates human-in-the-loop validation gates to ensure accuracy before finalization. Designed with async processing for throughput and modular pipeline stages for extensibility — directly applicable to any domain requiring automated document generation from unstructured inputs.
+An AI-powered inspection workflow automation system that replaces manual marine container reporting with an end-to-end intelligent pipeline. Uses multimodal LLMs to process raw visual and textual inspection inputs, applies structured output schemas and prompt engineering to generate standardized reports, and incorporates human-in-the-loop validation gates to ensure accuracy before finalization. Designed with async processing for throughput and modular pipeline stages for extensibility - directly applicable to any domain requiring automated document generation from unstructured inputs.
 
 ---
 
@@ -128,7 +128,7 @@ A multithreaded transaction processing engine built from scratch in C++ on top o
 
 ---
 
-### [Autonomous Intersection Navigation](https://github.com/shrey-deshmukh/autonomous-intersection-navigation)
+### [Autonomous Intersection Navigation RL](https://github.com/Shrey-Deshmukh/autonomous-intersection-navigation-drl.git)
 `Python · PyTorch · Deep Q-Network · Curriculum Learning`
 
 A reinforcement learning agent trained to navigate unsignalized four-way intersections without traffic signals. Uses Deep Q-Network (DQN) with curriculum learning - progressively increasing traffic density from low to high congestion across 35,000 training episodes - achieving **85% success rate** in high-congestion 16-car scenarios. Engineered a hybrid safety architecture combining DQN-based long-term planning with a rule-based collision shield that overrides unsafe actions, and applied transfer learning to improve generalization across unseen traffic densities.
@@ -138,7 +138,7 @@ A reinforcement learning agent trained to navigate unsignalized four-way interse
 ### [Face Mask Detection](https://github.com/shrey-deshmukh/face-mask-detection)
 `Python · TensorFlow · Keras · OpenCV · MobileNetV2`
 
-An end-to-end computer vision pipeline for real-time face mask detection. Fine-tuned a MobileNetV2 transfer learning model with data augmentation on 2,200+ labeled images, achieving **95.77% classification accuracy** across two datasets. Built a complete inference pipeline from data preprocessing and CNN training through to real-time video detection using OpenCV — capable of processing live camera feeds and classifying mask/no-mask per detected face at video frame rate.
+An end-to-end computer vision pipeline for real-time face mask detection. Fine-tuned a MobileNetV2 transfer learning model with data augmentation on 2,200+ labeled images, achieving **95.77% classification accuracy** across two datasets. Built a complete inference pipeline from data preprocessing and CNN training through to real-time video detection using OpenCV - capable of processing live camera feeds and classifying mask/no-mask per detected face at video frame rate.
 
 ---
 
