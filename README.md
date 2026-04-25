@@ -70,9 +70,9 @@ I care about systems that are correct, fast, and reliable - and I enjoy working 
 Here are a few selected projects.
 
 ### [Recovery Adapter](https://github.com/shrey-deshmukh/recovery-adapter)
-`Go · REST APIs · CLI · Linux`
+`Go · REST APIs · CLI · gRPC · Linux`
 
-A Golang-based CLI tool built at HPE to automate disaster recovery operations on storage arrays. The tool abstracts complex HPE array CLI commands into a simple menu-driven interface supporting the full failover lifecycle: connect to primary and secondary sites via REST, check array and Remote Copy Group (RCG) status, execute planned failover and failback, reprotect arrays, and fetch task logs for debugging. Implements pre-failover safety checks, robust error handling for 14+ edge cases (invalid RCG states, expired sessions, incorrect credentials), and was designed to reduce Recovery Time Objective (RTO) for support teams, sales engineers, and R&D. **Ranked Top 5** at HPE Storage Creative Days Hackathon 2023.
+A Golang and gRPC-based CLI tool built at HPE to automate disaster recovery operations on storage arrays. The tool abstracts complex HPE array CLI commands into a simple menu-driven interface supporting the full failover lifecycle: connect to primary and secondary sites via REST, check array and Remote Copy Group (RCG) status, execute planned failover and failback, reprotect arrays, and fetch task logs for debugging. Implements pre-failover safety checks, robust error handling for 14+ edge cases (invalid RCG states, expired sessions, incorrect credentials), and was designed to reduce Recovery Time Objective (RTO) for support teams, sales engineers, and R&D. **Ranked Top 5** at HPE Storage Creative Days Hackathon 2023.
 
 ---
 
