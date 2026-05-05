@@ -76,7 +76,7 @@ A Golang and gRPC-based CLI tool built at HPE to automate disaster recovery oper
 
 ---
 
-### [SurveyOps+](https://github.com/Shrey-Deshmukh/survey_ops_plus_poc)
+### [SurveyOps+](https://github.com/Shrey-Deshmukh/surveyops-plus-poc-showcase)
 `Python · LLMs · Multimodal AI · API Integration · LangChain · LangGraph · Prompt Engineering`
 
 An AI-powered inspection workflow automation system that replaces manual marine container reporting with an end-to-end intelligent pipeline. Uses multimodal LLMs to process raw visual and textual inspection inputs, applies structured output schemas and prompt engineering to generate standardized reports, and incorporates human-in-the-loop validation gates to ensure accuracy before finalization. Designed with async processing for throughput and modular pipeline stages for extensibility - directly applicable to any domain requiring automated document generation from unstructured inputs.
