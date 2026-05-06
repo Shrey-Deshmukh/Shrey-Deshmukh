@@ -16,7 +16,7 @@
 
 ## About Me
 
-I'm a graduate CS student at UCI with **2+ years of professional experience** building production-grade backend systems and distributed infrastructure at Hewlett Packard Enterprise. I've shipped features used by Fortune 500 clients, led root cause analysis across production escalations, and built everything from Kubernetes storage controllers to AI-powered automation pipelines.
+I'm a graduate Computer Science student at University of California Irvine with **2+ years of professional experience** building production-grade backend systems and distributed infrastructure at Hewlett Packard Enterprise. I've shipped features used by Fortune 500 clients, led root cause analysis across production escalations, and built everything from Kubernetes storage controllers to AI-powered automation pipelines.
 
 I care about systems that are correct, fast, and reliable - and I enjoy working on problems where those properties actually matter.
 
